@@ -1,0 +1,48 @@
+[server]
+headless = true
+address = "127.0.0.1"
+port = 8041
+
+[theme]
+# Modern Primary Colors
+primaryColor = "#2196f3"  # Vibrant blue for primary actions
+backgroundColor = "#0a1929"  # Deep blue-gray background
+secondaryBackgroundColor = "#132f4c"  # Lighter blue-gray for contrast
+textColor = "#ffffff"  # Crisp white text
+
+# Enhanced Theme Colors
+base = "dark"  # Base theme setting
+font = "sans serif"  # Modern sans-serif font
+
+# Custom Theme Elements
+secondaryColor = "#7c4dff"  # Rich purple for accents
+tertiaryColor = "#00bcd4"  # Cyan for highlights
+
+# Interactive Elements
+buttonBorderColor = "rgba(255, 255, 255, 0.1)"  # Subtle button borders
+inputBorderColor = "rgba(255, 255, 255, 0.2)"  # Input field borders
+
+[global]
+# Modern UI Settings
+showSidebarNavigation = true
+disableWatchdogWarning = true
+suppressDeprecationWarnings = true
+
+[deprecation]
+showfileUploaderEncoding = false
+
+[client]
+# Enhanced UI Elements
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[runner]
+# Performance Settings
+fastReruns = true
+enforceSerializableSessionState = false
+
+[browser]
+# Browser Behavior
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8041
